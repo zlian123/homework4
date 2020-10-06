@@ -99,7 +99,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url("/images/header.jpg") !important;
+  background-image: url("../images/header.jpg");
   
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
