@@ -99,7 +99,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url("images/header.jpg");
+  background-image: url("images/header.jpg"); /* why dont we need to navigate out of css folder here? ../images*/
   
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
