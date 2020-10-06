@@ -90,16 +90,18 @@ footer{
 }
 
 header{
-  /*Your Code Here*/
-  /*Set background-image to header.jpg */
-  background-image: url("/images/header.jpg");
-
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
   color: white;
   height: 400px;                /* Parallax effect */
+
+  /*Your Code Here*/
+  /*Set background-image to header.jpg */
+  background-image: url("/images/header.jpg") !important;
+  
+
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
 }
